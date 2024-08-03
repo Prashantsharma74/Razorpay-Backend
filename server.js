@@ -5,6 +5,7 @@ const color = require("colors")
 const { connectDB } = require("./config/db")
 require("dotenv").config()
 const PORT = process.env.PORT
+const Razorpay = require('razorpay');
 
 connectDB()
 
